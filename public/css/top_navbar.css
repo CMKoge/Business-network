@@ -1,0 +1,64 @@
+.navbar-custom{
+  background: #006400;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: none;
+}
+.navbar-custom ul {
+  padding-right:150px;
+}
+.navbar-custom ul li a {
+  color:#DCDCDC;
+}
+.navbar-custom div ul li :hover {
+  background:#008000;
+}
+.navbar-custom div ul li :focus {
+  background:#008000;
+}
+.navbar-custom button span {
+  background:#DCDCDC;
+}
+.navbar-custom button span :hover{
+  background:Black;
+}
+.navbar-custom div ul li select {
+  background-color:#FFFFFF;
+  color:#006400;
+  margin-top: 9px;
+  margin-right: 25px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 6px 6px 6px;
+  font-weight: 700;
+}
+.navbar-custom div ul li select option {
+  background-color: #FFFFFF;
+  color:#000000;
+}
+.search-group {
+  text-align: left;
+  margin-top: 8px;
+}
+#nav-search {
+  font-weight: 700;
+  width: 20em;
+  font-size: 1em;
+  border: 2px solid #006400;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+#nav-search:hover {
+  background-color: #FFFFFF;
+}
+#nav-search:focus {
+  background-color: #FFFFFF;
+}
+#btn-nav-search {
+  border: none;
+  background-color:	#006400;
+  color:#DCDCDC;
+  font-size: 1.2em;
+  vertical-align: middle;
+  text-align: center;
+}

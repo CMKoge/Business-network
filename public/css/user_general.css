@@ -1,0 +1,276 @@
+label {
+  color: #006400;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel] {
+  border: none;
+  border-bottom: 2px solid #DCDCDC;
+  text-align: left;
+  font-weight: 550;
+  width: 100%;
+  font-size: 1.2em;
+  padding-left: 5px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=tel]:focus {
+  border-bottom: 2px solid #87CEEB;
+}
+/*Profile*/
+/* Main Container */
+.profile-header {
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  height:   300px;
+  position: sticky;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+/* Users background image*/
+figure.profile-banner {
+  left:     0;
+  overflow: hidden;
+  position: absolute;
+  top:      0;
+  z-index:  1;
+  width:600px;
+  height:300px;
+}
+
+/*Profile Picture*/
+figure.profile-picture {
+  background-position: center center;
+  background-size: cover;
+  border: 5px #efefef solid;
+  border-radius: 50%;
+  bottom: -30px;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.2), 1px 1px 4px rgba(0,0,0,0.3);
+  height: 148px;
+  left: 20px;
+  position: absolute;
+  width: 148px;
+  z-index: 3;
+}
+
+/* Top Container */
+div.profile-data {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  color:#fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  padding:20px;
+}
+.profile-data-left {
+  display: inline-block;
+  vertical-align: top;
+}
+.profile-data-left a i {
+  font-size: 1.7em;
+  text-shadow:0 1px 1px rgba(0,0,0,.5);
+  padding-right:10px;
+  color: #ffffff;
+}
+.profile-data-left a i:hover {
+  color: #00FF7F;
+}
+
+.profile-data-right{
+  display: inline-block;
+  padding-top:15px;
+}
+.profile-data-right h4 span {
+  width:150px;
+  display:inline-block;
+}
+
+.profile-data-right h4{
+  margin-bottom:20px;
+}
+
+/* bottom profile stats bar */
+div.profile-stats {
+  bottom: 0;
+  border-top: 1px solid rgba(0,0,0,0.5);
+  left: 0;
+  padding: 15px 15px 15px 210px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.51) 3%, rgba(0,0,0,0.75) 61%, rgba(0,0,0,0.5) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(3%,rgba(0,0,0,0.51)), color-stop(61%,rgba(0,0,0,0.75)), color-stop(100%,rgba(0,0,0,0.5)));
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  background: -o-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  background: -ms-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,0.5) 0%,rgba(0,0,0,0.51) 3%,rgba(0,0,0,0.75) 61%,rgba(0,0,0,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80000000',GradientType=0 );
+}
+/* Screenplays and Downloads */
+div.profile-stats ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* The "number" for screenplays or downloads */
+div.profile-stats ul li a {
+  color: #efefef;
+  display: block;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 50px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7)
+}
+div.profile-stats ul li a:hover {
+  text-decoration: none;
+}
+/* the word "screenplays" or the word "downloads" */
+div.profile-stats li a span {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
+/* Track Tab */
+.biz-window {
+  display: inline-block!important;
+  max-width: 25%!important;
+  padding: 5px;
+  margin-top: 1.5em;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.biz-window a {
+  color: inherit;
+}
+.biz-window a:hover {
+  text-decoration: none;
+}
+.window-img img {
+  max-width: 100px;
+}
+.window-detail {
+  padding: 5px;
+}
+.text-window {
+  max-width: 100%!important;
+  text-align: justify;
+}
+.window-content article {
+  margin-left: 1.5em;
+}
+.window-action button:hover {
+  background-color: inherit;
+}
+.window-display {
+  display: inline-block;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+}
+.window-display i {
+  font-size: 1.3em;
+  margin-right: 0.2em;
+}
+.window-display span {
+  margin-right: 0.5em;
+}
+.custom-dropdown {
+  margin-top: 7em;
+  margin-bottom: 2em;
+  text-align: justify;
+}
+.btn-dropdown {
+  background-color: inherit;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  color: #1E90FF;
+}
+.second-dropdown {
+  margin-top: 0em;
+}
+/* Business Profile Content*/
+.about {
+  width:100%;
+  height:auto;
+  background-color:#01DF74;
+  margin-top:-20px;
+}
+.about-content {
+  color: #FFFFFF;
+  padding: 1em;
+}
+.about-content p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+.center
+{
+  width:100%;
+  height:auto;
+
+}
+.center-main
+{
+  width:97%;
+  margin:auto;
+}
+
+.center-left h2
+{
+  color:#424242;
+
+}
+.center-left p
+{
+  color:#424242;
+}
+.biz-services {
+  color: #FFFFFF;
+  background-color:#01DF74;
+  border:2px solid #FFFFFF;
+}
+.biz-services ul li {
+  text-align: justify;
+  padding: 0.3em;
+  font-size: 1.2em;
+}
+.biz-fields {
+  border:2px solid #FFFFFF;
+}
+.biz-fields ul li {
+  text-align: justify;
+  padding: 0.3em;
+  font-size: 1.2em;
+}
+.center-middle {
+  clear:both;
+}
+.paragraph
+{
+  padding-top:10px;
+  text-align:center;
+  color:#424242;
+}
+.pict img
+{
+  max-width:200px;
+  border:4px solid white;
+}
+.caption h5
+{
+  color:#2E2E2E;
+  line-height:2px;
+}
+
+.thumbnail
+{
+  display: inline-block!important;
+   text-align:center;
+  max-width:210px;
+  height:auto;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}

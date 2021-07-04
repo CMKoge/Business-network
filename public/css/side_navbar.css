@@ -1,0 +1,40 @@
+.sidebar-custom {
+  padding-top: 70px;
+  text-transform: uppercase;
+  position:sticky;
+}
+@media (min-width: 768px) {
+  .sidebar-custom {
+    padding-top: 70px;
+  }
+}
+.sidebar-custom ul li a {
+  color: #006400;
+}
+h6 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 2px solid #696969;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   font-size:1.7em;
+   color: #696969;
+   font-weight: 700;
+   text-transform:capitalize;
+   padding-top:10px;
+}
+h6 span {
+    background:#fff;
+}
+.sidenav-drop {
+  text-transform: capitalize;
+}
+.sidenav-drop li a:hover {
+  color:#006400;
+}
+.sidebar-header {
+  background-color: #f1f1f1;
+}
+.sidebar-header button span {
+  background-color: #000000;
+}

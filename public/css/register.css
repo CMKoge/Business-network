@@ -1,0 +1,110 @@
+.signup-form {
+    border-left: 2px solid #DCDCDC;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5% 10%;
+}
+.signup-form div input[type=text],
+div input[type=password],
+div input[type=tel] {
+  width: 75%;
+}
+/*login Form*/
+.login-form {
+  margin-top: 7%;
+  margin-left: 35%;
+  width: 40%;
+}
+.login-form
+div input[type=email],
+div input[type=password] {
+  width: 75%;
+}
+.login-form p {
+  margin-top: 1%;
+  margin-left: 25%;
+}
+.btn-signup:disabled {
+  background-color:	#FFFFFF;
+  border: 1.5px solid #DCDCDC;
+  color:#DCDCDC;
+}
+/*Sign Form Intro*/
+.user-intro-image {
+  max-width: 30%;
+  height: 30%;
+  margin-top: 10%;
+  margin-left: 2%;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#user-intro-text{
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 3em;
+  font-style: oblique;
+}
+/*Register Type*/
+.seprate-bar {
+   width: 40%;
+   text-align: center;
+   border-bottom: 2px solid #696969;
+   line-height: 0.1em;
+   margin-left:31%;
+   font-size:1.2em;
+   color: #696969;
+   text-transform:capitalize;
+   padding-top:10px;
+}
+.seprate-bar span {
+    background:#fff;
+}
+/*Account Type*/
+.account-type-box {
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+.account-type-box p {
+  margin: 5% 5% 5% 5%;
+}
+.account-type-box p a {
+  border: none;
+  padding: 3% 3% 3% 3%;
+  font-weight: 600;
+  font-size:1.7em;
+  color:#006400;
+  text-transform: capitalize;
+}
+.account-type-box p a:hover {
+  text-decoration: none;
+  background-color: #DCDCDC;
+}
+.account-type-box font {
+  font-size:1.3em;
+  color: #696969;
+}
+/*Password Recover*/
+.pwd-recover-form {
+  margin-top: 5%;
+}
+.pwd-recover-form div input[type=text],
+div input[type=email],
+div input[type=password] {
+  width: 75%;
+}
+/* Business Details */
+#reg-div {
+  display: none;
+}
+#sidebar-ul li a{
+  color: #006400;
+}
+.biz-type-div {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  margin: 1em;
+}
+.biz-type-div div label {
+  color: #000000;
+}
